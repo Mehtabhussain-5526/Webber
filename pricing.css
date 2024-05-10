@@ -1,0 +1,1276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+.hero {
+  max-width: 1440px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(165, 243, 252, 0.1) 23.31%,
+    rgba(165, 243, 252, 0.05) 109.14%
+  );
+  padding-top: 30.02px;
+}
+.header {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.webber-text {
+  color: #27272a;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-btn {
+  color: #18181b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+a {
+  text-decoration: none;
+}
+.signin {
+  padding: 12px 20px;
+  background-color: rgba(207, 250, 254, 1);
+  text-align: center;
+  font-size: 10;
+  font-weight: 400px;
+  border-radius: 2px;
+}
+.Signin {
+  color: #0e7490;
+}
+/* header ends */
+
+/* welcome msg simple pricing */
+.simple-pricing {
+  max-width: 1440px;
+  width: 100%;
+  margin-top: 91px;
+}
+.pricing-title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 115.6px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.text-under-pricing-title {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.1px;
+  text-align: center;
+}
+.monthly-yearly-btn {
+  max-width: 214px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 52px;
+  display: flex;
+}
+.monthly-btn {
+  background: linear-gradient(
+    274.03deg,
+    #06b6d4 0%,
+    #0e7490 0.01%,
+    #0284c7 100%
+  );
+  color: white;
+  width: 107px;
+  height: 44px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  border-style: none;
+}
+.yearly-btn {
+  background: rgba(207, 250, 254, 1);
+  color: rgba(14, 116, 144, 1);
+  width: 107px;
+  height: 44px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  border-style: none;
+}
+/* Subscription Pakages */
+.subscripton-div {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 149px;
+}
+
+.price-pkg {
+  display: flex;
+  justify-content: center;
+}
+.dollors {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+}
+.per-month {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.list-style {
+  list-style: none;
+}
+.true-img-class {
+  height: 14.32px;
+  width: 16.94px;
+  margin-top: 43.34px;
+}
+.false-img-class {
+  height: 18px;
+  width: 18px;
+  margin-top: 43.34px;
+}
+.text-item-li1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 47px;
+}
+.text-item-li3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 47px;
+}
+.text-item-liu {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 47px;
+}
+.text-item-li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 47px;
+}
+.starter-title {
+  color: rgba(82, 82, 91, 1);
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38.19px;
+  text-align: center;
+}
+.list-div {
+  margin-top: 80px;
+}
+.starter-div {
+  text-align: center;
+}
+.pro-title {
+  background: -webkit-linear-gradient(274.03deg, #06b6d4 0%, #0284c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38.19px;
+  text-align: center;
+}
+.pro-div {
+  max-width: 272px;
+  width: 100%;
+  box-shadow: 20px 22px 24px 0px rgba(23, 18, 63, 0.12);
+  text-align: center;
+  border-radius: 2px;
+  padding-bottom: 49px;
+}
+.enterprise-title {
+  color: rgba(82, 82, 91, 1);
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38.19px;
+  text-align: center;
+}
+.enterprise-div {
+  text-align: center;
+}
+.choose-plan-btn {
+  margin-top: 50.34px;
+  background: rgba(207, 250, 254, 1);
+  height: 45px;
+  width: 167px;
+  border-style: none;
+}
+.choose-plan-btn-2 {
+  margin-top: 50.34px;
+  background: linear-gradient(
+    274.03deg,
+    #06b6d4 0%,
+    #0e7490 0.01%,
+    #0284c7 100%
+  );
+  color: white;
+  height: 45px;
+  width: 167px;
+  border-style: none;
+}
+
+/* Questions area */
+.questions {
+  background: rgba(244, 244, 245, 1);
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.questions-title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.questions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0 auto;
+  margin-top: 110px;
+  max-width: 1200px;
+  width: 100%;
+  column-gap: 95px;
+  row-gap: 60px;
+}
+.grid-child {
+  max-width: 592px;
+  width: 100%;
+}
+.question-asked-text {
+  font-family: Avenir Next;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+.answer-of-question {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* free trial */
+.free-trial {
+  background: linear-gradient(
+    274.03deg,
+    #06b6d4 0%,
+    #0e7490 0.01%,
+    #0284c7 100%
+  );
+  color: white;
+  height: 312px;
+}
+.free-trial-title {
+  padding-top: 60px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.free-trial-text {
+  max-width: 547px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.free-trial-btn-main-div {
+  margin-top: 32px;
+  position: relative;
+}
+.free-trial-btn-sub-div {
+  position: absolute;
+  left: 44.3%;
+}
+.free-trial-btn {
+  width: 167px;
+  height: 48px;
+  color: rgba(14, 116, 144, 1);
+  border-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+/* Footer */
+.footer {
+  background: rgba(244, 244, 245, 1);
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 81px;
+  padding-bottom: 60px;
+}
+.footer-sub-div {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.logo-in-footer {
+  max-width: 73.23px;
+  width: 100%;
+  text-align: center;
+}
+.webber-text-footer {
+  color: #27272a;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.Links {
+  max-width: 635px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.footer-link-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -1%;
+  margin-bottom: 24px;
+}
+.link-controls {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.rights {
+  margin-top: 32.02px;
+  color: #52525b;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.rights1 {
+  margin-top: 8px;
+  color: #52525b;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.YT-twitter {
+  margin-top: 32px;
+  width: 80px;
+  height: 32px;
+}
+.T-logo {
+  margin-right: 11px;
+  width: 32px;
+  height: 32px;
+}
+.YT-logo {
+  width: 32px;
+  height: 32px;
+}
+.email-and-send-div {
+  max-width: 255px;
+  width: 100;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.email-send-btn-p-div {
+  background: linear-gradient(
+    274.03deg,
+    #06b6d4 0%,
+    #0e7490 0.01%,
+    #0284c7 100%
+  );
+  width: 42px;
+  height: 40px;
+}
+.email-box {
+  width: 212px;
+  border-style: none;
+  padding-left: 10px;
+}
+.email-send-btn {
+  width: 18px;
+  height: 18px;
+  margin: 12px;
+}
+
+/* For 1024  */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* For 1024  */
+  body {
+    /* header */
+    .header {
+      max-width: 924px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .simple-pricing {
+      max-width: 750px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .pricing-title {
+      font-size: 70px;
+      font-weight: 900;
+      margin-top: 91px;
+      text-align: center;
+    }
+    .text-under-pricing-title {
+      max-width: 550px;
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .monthly-yearly-btn {
+      margin-top: 50px;
+    }
+    .questions-title {
+      font-size: 50px;
+    }
+    .questions-grid {
+      max-width: 924px;
+      margin-top: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    /* subscription plan */
+    .subscripton-div {
+      max-width: 924px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 40px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 100px;
+    }
+
+    /* footer */
+    .footer {
+      background: rgba(244, 244, 245, 1);
+      max-width: 1023px;
+      width: 100%;
+      margin-top: 0px;
+      padding-top: 81px;
+      padding-bottom: 60px;
+    }
+    .footer-sub-div {
+      max-width: 973px;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding-left: 50px;
+    }
+  }
+}
+/* For 768  */
+@media screen and (min-width: 768px) and (max-width: 1010px) {
+  /* For 768  */
+  body {
+    /* header */
+    .header {
+      max-width: 668px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .simple-pricing {
+      max-width: 750px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .pricing-title {
+      font-size: 60px;
+      font-weight: 900;
+      margin-top: 91px;
+      text-align: center;
+    }
+    .text-under-pricing-title {
+      max-width: 500px;
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .monthly-yearly-btn {
+      margin-top: 50px;
+    }
+    .questions-title {
+      font-size: 50px;
+    }
+    .questions-grid {
+      max-width: 668px;
+      margin-top: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
+      row-gap: 30px;
+      column-gap: 50px;
+    }
+
+    /* subscription plan */
+    .subscripton-div {
+      max-width: 668px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 40px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 80px;
+    }
+    .pro-title,
+    .starter-title,
+    .enterprise-title {
+      font-size: 20px;
+    }
+    .free-trial-btn-sub-div {
+      left: 40.3%;
+    }
+    .text-item-li {
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    .true-img-class {
+      height: 14.32px;
+      width: 16.94px;
+      margin-top: 38.34px;
+    }
+    .text-item-li1 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12px;
+      margin-top: 39px;
+      margin-bottom: 2px;
+      text-align: center;
+    }
+    .text-item-li3 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12px;
+      margin-top: 39px;
+      margin-bottom: 2px;
+      text-align: center;
+    }
+    .text-item-liu {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12px;
+      margin-top: 39px;
+      margin-bottom: 2px;
+      text-align: center;
+    }
+    .false-img-class {
+      height: 18px;
+      width: 18px;
+      margin-top: 38.34px;
+    }
+    .dollors {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 40px;
+      text-align: left;
+    }
+    .pro-div {
+      max-width: 140px;
+      width: 100%;
+      box-shadow: 20px 22px 24px 0px rgba(23, 18, 63, 0.12);
+      text-align: center;
+      border-radius: 2px;
+      padding-bottom: 49px;
+    }
+
+    .choose-plan-btn {
+      margin-top: 50.34px;
+      background: rgba(207, 250, 254, 1);
+      height: 45px;
+      width: 100px;
+      border-style: none;
+      font-size: 12px;
+      border-radius: 2px;
+    }
+    .choose-plan-btn-2 {
+      margin-top: 50.34px;
+      background: linear-gradient(
+        274.03deg,
+        #06b6d4 0%,
+        #0e7490 0.01%,
+        #0284c7 100%
+      );
+      color: white;
+      height: 45px;
+      width: 100px;
+      border-style: none;
+      font-size: 12px;
+      border-radius: 2px;
+    }
+
+    /* footer */
+    .footer {
+      background: rgba(244, 244, 245, 1);
+      max-width: 768px;
+      width: 100%;
+      margin-top: 0px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .footer-sub-div {
+      max-width: 668px;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .Links {
+      gap: 15px;
+    }
+    .link-controls {
+      margin-bottom: 5px;
+    }
+    .YT-twitter {
+      margin-top: 10px;
+    }
+    .rights {
+      margin-top: 16px;
+    }
+    .rights1 {
+      margin-top: 5px;
+    }
+  }
+}
+/* For 640 */
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  /* For 640  */
+  body {
+    /* header */
+    .header {
+      max-width: 540px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .nav {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-btn {
+      color: #18181b;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 15px;
+    }
+    .logo {
+      img {
+        width: 60px;
+      }
+      .webber-text {
+        display: none;
+      }
+    }
+    .signin {
+      font-size: 14px;
+      line-height: 6px;
+    }
+
+    .simple-pricing {
+      max-width: 750px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .pricing-title {
+      font-size: 50px;
+      font-weight: 900;
+      margin-top: 80px;
+      text-align: center;
+    }
+    .text-under-pricing-title {
+      max-width: 400px;
+      font-size: 16px;
+      line-height: 30px;
+      margin-top: 0;
+    }
+    .monthly-yearly-btn {
+      margin-top: 50px;
+    }
+    .questions-title {
+      font-size: 40px;
+    }
+    .questions-grid {
+      max-width: 540px;
+      margin-top: 70px;
+      padding-left: 50px;
+      padding-right: 50px;
+      row-gap: 30px;
+      column-gap: 50px;
+    }
+    .question-asked-text {
+      font-size: 18px;
+    }
+    .answer-of-question {
+      font-size: 16px;
+    }
+
+    /* subscription plan */
+    .subscripton-div {
+      max-width: 540px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 25px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 80px;
+    }
+    .pro-title,
+    .starter-title,
+    .enterprise-title {
+      font-size: 20px;
+    }
+    .free-trial-title {
+      font-size: 40px;
+    }
+    .free-trial-text {
+      max-width: 500px;
+    }
+    .free-trial-btn-sub-div {
+      left: 36.53%;
+    }
+    .text-item-li {
+      margin-top: 39px;
+      font-size: 14px;
+    }
+    .true-img-class {
+      height: 14.32px;
+      width: 16.94px;
+      margin-top: 45.34px;
+    }
+    .text-item-li1 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12px;
+      margin-top: 39px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+    .text-item-li3 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12px;
+      margin-top: 39px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+    .text-item-liu {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12px;
+      margin-top: 39px;
+      margin-bottom: 7px;
+      text-align: center;
+    }
+    .false-img-class {
+      height: 16px;
+      width: 16px;
+      margin-top: 50.34px;
+    }
+    .dollors {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 40px;
+      text-align: left;
+    }
+    .pro-div {
+      max-width: 140px;
+      width: 100%;
+      box-shadow: 20px 22px 24px 0px rgba(23, 18, 63, 0.12);
+      text-align: center;
+      border-radius: 2px;
+      padding-bottom: 40px;
+    }
+
+    .choose-plan-btn {
+      margin-top: 50.34px;
+      background: rgba(207, 250, 254, 1);
+      height: 40px;
+      width: 100px;
+      border-style: none;
+      font-size: 12px;
+      border-radius: 2px;
+    }
+    .choose-plan-btn-2 {
+      margin-top: 58.34px;
+      background: linear-gradient(
+        274.03deg,
+        #06b6d4 0%,
+        #0e7490 0.01%,
+        #0284c7 100%
+      );
+      color: white;
+      height: 40px;
+      width: 100px;
+      border-style: none;
+      font-size: 12px;
+      border-radius: 2px;
+    }
+
+    /* footer */
+    .footer {
+      background: rgba(244, 244, 245, 1);
+      max-width: 640px;
+      width: 100%;
+      margin-top: 100px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .footer-sub-div {
+      max-width: 580px;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .Links {
+      gap: 10px;
+    }
+    .email-box {
+      max-width: 150px;
+    }
+    .link-controls {
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .YT-twitter {
+      margin-top: 10px;
+    }
+    .rights {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+    .rights1 {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  }
+}
+/* For 375  */
+@media screen and (min-width: 375px) and (max-width: 639px) {
+  /* For 375  */
+  body {
+    /* header */
+    .header {
+      max-width: 275px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 0px;
+    }
+    .nav {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-btn {
+      color: #18181b;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 12px;
+    }
+    .logo {
+      display: none;
+      img {
+        width: 60px;
+      }
+      .webber-text {
+        display: none;
+      }
+    }
+    .signin {
+      display: none;
+      font-size: 14px;
+      line-height: 6px;
+    }
+    .pricing-title {
+      font-size: 35px;
+    }
+    .text-under-pricing-title {
+      font-size: 15px;
+      max-width: 300px;
+    }
+    .monthly-yearly-btn {
+      margin-top: 40px;
+    }
+    .subscripton-div {
+      max-width: 325px;
+      padding-right: 24px;
+      padding-left: 24px;
+      margin-top: 60px;
+      height: auto;
+      padding-bottom: 50px;
+      gap: 10px;
+    }
+    .pro-title,
+    .starter-title {
+      font-size: 20px;
+    }
+    .enterprise-title {
+      font-size: 18px;
+    }
+    .dollors {
+      font-size: 14px;
+    }
+    .per-month {
+      font-size: 12px;
+    }
+    .text-item-li {
+      font-size: 10px;
+      margin-top: 12px;
+    }
+    .text-item-li1,
+    .text-item-li3,
+    .text-item-liu {
+      font-size: 10px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+    }
+    .true-img-class,
+    .false-img-class {
+      margin-top: 30px;
+      width: 10px;
+      height: 10px;
+    }
+    .choose-plan-btn,
+    .choose-plan-btn-2 {
+      width: 80px;
+      height: 25px;
+      font-size: 10px;
+    }
+
+    .questions-grid {
+      max-width: 325px;
+      padding-left: 24px;
+      padding-right: 24px;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      margin-top: 70px;
+      gap: 30px;
+    }
+    .questions-title {
+      font-size: 35px;
+      line-height: 50px;
+    }
+    .question-asked-text {
+      font-size: 19px;
+      line-height: 20px;
+    }
+    .answer-of-question {
+      margin-top: 5px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .free-trial {
+      max-width: 325px;
+      height: 370px;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+    .free-trial-title {
+      padding-top: 55px;
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .free-trial-btn-sub-div {
+      left: 23.5%;
+    }
+
+    /* footer */
+    .footer {
+      background: rgba(244, 244, 245, 1);
+      max-width: 640px;
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .footer-sub-div {
+      max-width: 275px;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .Links {
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .email-box {
+      max-width: 150px;
+    }
+    .footer-link-titles {
+      font-size: 17px;
+    }
+    .link-controls {
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .YT-twitter {
+      margin-top: 10px;
+    }
+    .rights {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+    .rights1 {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 374px) {
+  /* For 375  */
+  body {
+    /* header */
+    .header {
+      max-width: 275px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 0px;
+    }
+    .nav {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-btn {
+      color: #18181b;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 12px;
+    }
+    .logo {
+      display: none;
+      img {
+        width: 60px;
+      }
+      .webber-text {
+        display: none;
+      }
+    }
+    .signin {
+      display: none;
+      font-size: 14px;
+      line-height: 6px;
+    }
+    .pricing-title {
+      font-size: 35px;
+    }
+    .text-under-pricing-title {
+      font-size: 15px;
+      max-width: 300px;
+    }
+    .monthly-yearly-btn {
+      margin-top: 40px;
+    }
+    .subscripton-div {
+      max-width: 325px;
+      padding-right: 24px;
+      padding-left: 24px;
+      margin-top: 60px;
+      height: auto;
+      padding-bottom: 50px;
+      gap: 10px;
+    }
+    .pro-title,
+    .starter-title {
+      font-size: 20px;
+    }
+    .enterprise-title {
+      font-size: 18px;
+    }
+    .dollors {
+      font-size: 14px;
+    }
+    .per-month {
+      font-size: 12px;
+    }
+    .text-item-li {
+      font-size: 10px;
+      margin-top: 12px;
+    }
+    .text-item-li1,
+    .text-item-li3,
+    .text-item-liu {
+      font-size: 10px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+    }
+    .true-img-class,
+    .false-img-class {
+      margin-top: 30px;
+      width: 10px;
+      height: 10px;
+    }
+    .choose-plan-btn,
+    .choose-plan-btn-2 {
+      width: 80px;
+      height: 25px;
+      font-size: 10px;
+    }
+
+    .questions-grid {
+      max-width: 325px;
+      padding-left: 24px;
+      padding-right: 24px;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      margin-top: 70px;
+      gap: 30px;
+    }
+    .questions-title {
+      font-size: 35px;
+      line-height: 50px;
+    }
+    .question-asked-text {
+      font-size: 19px;
+      line-height: 20px;
+    }
+    .answer-of-question {
+      margin-top: 5px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .free-trial {
+      max-width: 325px;
+      height: 370px;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+    .free-trial-title {
+      padding-top: 55px;
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .free-trial-btn-sub-div {
+      left: 23.5%;
+    }
+
+    /* footer */
+    .footer {
+      background: rgba(244, 244, 245, 1);
+      max-width: 640px;
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .footer-sub-div {
+      max-width: 275px;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .Links {
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .email-box {
+      max-width: 150px;
+    }
+    .footer-link-titles {
+      font-size: 17px;
+    }
+    .link-controls {
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .YT-twitter {
+      margin-top: 10px;
+    }
+    .rights {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+    .rights1 {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  }
+}
