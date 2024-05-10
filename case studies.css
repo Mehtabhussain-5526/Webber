@@ -285,6 +285,35 @@ a {
       font-size: 14px;
       line-height: 6px;
     }
+    .case-studies-title{
+      font-size: 55px;
+
+    }
+    .text-under-title{
+      max-width: 450px;
+    }
+    .content-main-div{
+      max-width: 640px;
+    }
+    .content-area{
+      max-width: 540px;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-left: 60px;
+      padding-right: 40px;
+    }
+    .content-div-1{
+      max-width: 600px;
+      margin-top: 0;
+    }
+    .content-div-2{
+      max-width: 600px;
+      margin-left: 0;
+    }
+    .i2{
+      margin-top: 80px;
+    }
   }
 }
 /* For 375  */
@@ -327,6 +356,128 @@ a {
       display: none;
       font-size: 14px;
       line-height: 6px;
+    }
+    .case-studies-title{
+      font-size: 40px;
+
+    }
+    .text-under-title{
+      max-width: 275px;
+    }
+    .img-dropdown{
+      max-width: 375px;
+    }
+    .dropdown{
+      max-width: 300px;
+    }
+
+    .content-main-div{
+      max-width: 375px;
+    }
+    .content-area{
+      max-width: 325px;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .content-div-1{
+      max-width: 325px;
+      margin-top: 0;
+    }
+    .content-div-2{
+      max-width: 325px;
+      margin-left: 0;
+    }
+    .i2{
+      margin-top: 80px;
+      max-width: 325px;
+    }
+    .i1{
+      max-width: 325px;
+    }
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 374px) {
+  /* For 375  */
+  body {
+    /* header */
+    .header {
+      max-width: 275px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .nav {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-btn {
+      color: #18181b;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 12px;
+    }
+    .logo {
+      display: none;
+      img {
+        width: 60px;
+      }
+      .webber-text {
+        display: none;
+      }
+    }
+    .signin {
+      display: none;
+      font-size: 14px;
+      line-height: 6px;
+    }
+    .case-studies-title{
+      font-size: 40px;
+
+    }
+    .text-under-title{
+      max-width: 275px;
+    }
+    .img-dropdown{
+      max-width: 375px;
+    }
+    .dropdown{
+      max-width: 300px;
+    }
+
+    .content-main-div{
+      max-width: 375px;
+    }
+    .content-area{
+      max-width: 325px;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .content-div-1{
+      max-width: 325px;
+      margin-top: 0;
+    }
+    .content-div-2{
+      max-width: 325px;
+      margin-left: 0;
+    }
+    .i2{
+      margin-top: 80px;
+      max-width: 325px;
+    }
+    .i1{
+      max-width: 325px;
     }
   }
 }
