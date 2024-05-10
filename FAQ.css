@@ -420,7 +420,7 @@ a {
       padding-left: 50px;
       padding-right: 50px;
     }
-    .main-div{
+    .main-div {
       padding-bottom: 50px;
     }
     .sub-div-1,
@@ -439,16 +439,16 @@ a {
       max-width: 340px;
       width: 100%;
     }
-    .more-case-std{
+    .more-case-std {
       max-width: 918px;
       width: 100%;
       padding-left: 50px;
       padding-right: 50px;
     }
-    .sub-divs-case-stdies{
+    .sub-divs-case-stdies {
       max-width: 200px;
     }
-    .img-tag-more-cases{
+    .img-tag-more-cases {
       max-width: 200px;
       height: 225px;
     }
@@ -486,7 +486,7 @@ a {
       padding-left: 50px;
       padding-right: 50px;
     }
-    .main-div{
+    .main-div {
       padding-bottom: 50px;
       display: flex;
       flex-direction: column;
@@ -498,17 +498,17 @@ a {
       max-width: 608px;
       width: 100%;
     }
-    .sub-div-2-img1{
+    .sub-div-2-img1 {
       margin-top: 32px;
     }
-    .sub-div-1{
+    .sub-div-1 {
       margin-top: 0;
     }
     .sub-div-2 {
       max-width: 608px;
       width: 100%;
     }
-    .details-div{
+    .details-div {
       margin-top: 70px;
     }
     .organization-title,
@@ -516,20 +516,20 @@ a {
       max-width: 540px;
       width: 100%;
     }
-    .more-case-std{
+    .more-case-std {
       max-width: 663px;
       width: 100%;
       padding-left: 50px;
       padding-right: 50px;
     }
-    .sub-divs-case-stdies{
+    .sub-divs-case-stdies {
       max-width: 200px;
     }
-    .img-tag-more-cases{
+    .img-tag-more-cases {
       max-width: 200px;
       height: 225px;
     }
-    .div-flex{
+    .div-flex {
       padding-left: 40px;
       max-width: 600px;
       display: flex;
@@ -610,57 +610,57 @@ a {
       font-size: 14px;
       line-height: 6px;
     }
-      .main-div{
-        padding-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-      }
-      .sub-div-1,
-      .sub-div-2-img1,
-      .img-uder-details,
-      .img2-uder-details {
-        max-width: 510px;
-        width: 100%;
-      }
-      .sub-div-2-img1{
-        height: auto;
-        margin-top: 32px;
-      }
-      .sub-div-1{
-        margin-top: 0;
-      }
-      .sub-div-2 {
-        max-width: 608px;
-        width: 100%;
-      }
-      .details-div{
-        margin-top: 70px;
-      }
-      .organization-title,
-      .organization-discrip {
-        max-width: 400px;
-        width: 100%;
-      }
-      .more-case-std{
-        max-width: 539px;
-        width: 100%;
-        padding-left: 50px;
-        padding-right: 50px;
-      }
-      .sub-divs-case-stdies{
-        max-width: 240px;
-      }
-      .img-tag-more-cases{
-        max-width: 235px;
-        height: 225px;
-      }
-      .div-flex{
-        max-width: 510px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        gap: 40px;
-      }
+    .main-div {
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    .sub-div-1,
+    .sub-div-2-img1,
+    .img-uder-details,
+    .img2-uder-details {
+      max-width: 510px;
+      width: 100%;
+    }
+    .sub-div-2-img1 {
+      height: auto;
+      margin-top: 32px;
+    }
+    .sub-div-1 {
+      margin-top: 0;
+    }
+    .sub-div-2 {
+      max-width: 608px;
+      width: 100%;
+    }
+    .details-div {
+      margin-top: 70px;
+    }
+    .organization-title,
+    .organization-discrip {
+      max-width: 400px;
+      width: 100%;
+    }
+    .more-case-std {
+      max-width: 535px;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .sub-divs-case-stdies {
+      max-width: 240px;
+    }
+    .img-tag-more-cases {
+      max-width: 235px;
+      height: 225px;
+    }
+    .div-flex {
+      max-width: 510px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 40px;
+    }
 
     /* footer */
     .footer {
@@ -745,7 +745,7 @@ a {
       font-size: 14px;
       line-height: 6px;
     }
-    .main-div{
+    .main-div {
       max-width: 325px;
       padding-bottom: 50px;
       display: flex;
@@ -760,18 +760,18 @@ a {
       max-width: 325px;
       width: 100%;
     }
-    .sub-div-2-img1{
+    .sub-div-2-img1 {
       height: auto;
       margin-top: 32px;
     }
-    .sub-div-1{
+    .sub-div-1 {
       margin-top: 0;
     }
     .sub-div-2 {
       max-width: 325px;
       width: 100%;
     }
-    .details-div{
+    .details-div {
       margin-top: 70px;
     }
     .organization-title,
@@ -779,21 +779,21 @@ a {
       max-width: 280px;
       width: 100%;
     }
-    .more-case-std{
-      max-width: 325px;
+    .more-case-std {
+      max-width: 319px;
       width: 100%;
       padding-left: 25px;
       padding-right: 25px;
     }
-    .sub-divs-case-stdies{
+    .sub-divs-case-stdies {
       max-width: 325px;
     }
-    .img-tag-more-cases{
-      min-width: 325px;
+    .img-tag-more-cases {
+      min-width: 320px;
       max-width: 325px;
       height: auto;
     }
-    .div-flex{
+    .div-flex {
       max-width: 325px;
       display: flex;
       flex-direction: column;
@@ -803,7 +803,7 @@ a {
     /* footer */
     .footer {
       background: rgba(244, 244, 245, 1);
-      max-width: 640px;
+      max-width: 375px;
       width: 100%;
       padding-top: 40px;
       padding-bottom: 40px;
@@ -888,7 +888,7 @@ a {
       font-size: 14px;
       line-height: 6px;
     }
-    .main-div{
+    .main-div {
       max-width: 325px;
       padding-bottom: 50px;
       display: flex;
@@ -903,18 +903,18 @@ a {
       max-width: 325px;
       width: 100%;
     }
-    .sub-div-2-img1{
+    .sub-div-2-img1 {
       height: auto;
       margin-top: 32px;
     }
-    .sub-div-1{
+    .sub-div-1 {
       margin-top: 0;
     }
     .sub-div-2 {
       max-width: 325px;
       width: 100%;
     }
-    .details-div{
+    .details-div {
       margin-top: 70px;
     }
     .organization-title,
@@ -922,21 +922,21 @@ a {
       max-width: 280px;
       width: 100%;
     }
-    .more-case-std{
+    .more-case-std {
       max-width: 325px;
       width: 100%;
       padding-left: 25px;
       padding-right: 25px;
     }
-    .sub-divs-case-stdies{
+    .sub-divs-case-stdies {
       max-width: 325px;
     }
-    .img-tag-more-cases{
+    .img-tag-more-cases {
       min-width: 325px;
       max-width: 325px;
       height: auto;
     }
-    .div-flex{
+    .div-flex {
       max-width: 325px;
       display: flex;
       flex-direction: column;
