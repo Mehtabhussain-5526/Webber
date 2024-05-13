@@ -287,13 +287,17 @@ a {
   line-height: 24px;
 }
 /* free trial */
-.free-trial {
+.free-trial-perent {
+  max-width: 1440px;
   background: linear-gradient(
     274.03deg,
     #06b6d4 0%,
     #0e7490 0.01%,
     #0284c7 100%
   );
+}
+.free-trial {
+  margin: auto;
   color: white;
   height: 312px;
 }
@@ -333,6 +337,10 @@ a {
   line-height: 16px;
 }
 /* Footer */
+.footer-perent {
+  max-width: 1440px;
+  background: rgba(244, 244, 245, 1);
+}
 .footer {
   background: rgba(244, 244, 245, 1);
   max-width: 1440px;

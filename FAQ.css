@@ -231,15 +231,18 @@ a {
   text-align: left;
 }
 /* More Case studies */
-.more-case-std {
-  max-width: 1274px;
-  width: 100%;
-  padding: 60px 80px;
+.more-case-std-perent {
+  max-width: 1440px;
   border-width: 0px, 0px, 0px, 0px;
   border-style: solid;
   border-color: rgba(228, 228, 231, 1);
   box-shadow: none;
   background: rgba(244, 244, 245, 1);
+}
+.more-case-std {
+  max-width: 1274px;
+  width: 100%;
+  padding: 60px 80px;
 }
 .more-case-title {
   max-width: 1280px;
@@ -303,6 +306,10 @@ a {
 }
 
 /* Footer */
+.footer-perent {
+  max-width: 1440px;
+  background: rgba(244, 244, 245, 1);
+}
 .footer {
   background: rgba(244, 244, 245, 1);
   max-width: 1440px;
@@ -642,7 +649,7 @@ a {
       width: 100%;
     }
     .more-case-std {
-      max-width: 535px;
+      max-width: 534px;
       width: 100%;
       padding-left: 50px;
       padding-right: 50px;
