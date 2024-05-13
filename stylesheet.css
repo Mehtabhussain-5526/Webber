@@ -526,7 +526,8 @@ a {
   line-height: 26px;
   margin-bottom: 12px;
 }
-.Links-div1,.Links-div2{
+.Links-div1,
+.Links-div2 {
   padding-right: 60px;
 }
 

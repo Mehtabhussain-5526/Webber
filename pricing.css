@@ -231,7 +231,7 @@ a {
   width: 167px;
   border-style: none;
   border-radius: 2px;
-  color:rgba(14, 116, 144, 1);
+  color: rgba(14, 116, 144, 1);
 }
 .choose-plan-btn-2 {
   margin-top: 50.34px;
@@ -391,7 +391,8 @@ a {
   line-height: 26px;
   margin-bottom: 12px;
 }
-.Links-div1,.Links-div2{
+.Links-div1,
+.Links-div2 {
   padding-right: 60px;
 }
 .rights {

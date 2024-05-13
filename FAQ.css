@@ -356,7 +356,8 @@ a {
   line-height: 26px;
   margin-bottom: 12px;
 }
-.Links-div1,.Links-div2{
+.Links-div1,
+.Links-div2 {
   padding-right: 60px;
 }
 .rights {
@@ -431,6 +432,8 @@ a {
     }
     .main-div {
       padding-bottom: 50px;
+      padding-right: 60px;
+      padding-left: 60px;
     }
     .sub-div-1,
     .sub-div-2-img1,
