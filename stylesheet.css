@@ -6,12 +6,12 @@
 
 body {
   margin: 0 auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
 }
 
 .hero {
-  max-width: 1440px;
+  margin: 0 auto;
   background-image: linear-gradient(
     180deg,
     rgba(165, 243, 252, 0.1) 23.31%,
@@ -259,7 +259,7 @@ a {
 }
 
 .blue-g-perent {
-  max-width: 1440px;
+  max-width: 100%;
   background-image: linear-gradient(
     274.03deg,
     #06b6d4 0%,
@@ -269,6 +269,7 @@ a {
 }
 .blue-g {
   max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   place-items: center;
   width: 100%;
@@ -360,7 +361,7 @@ a {
 
 /* STATS */
 .stats-blue-perent {
-  max-width: 1440px;
+  max-width: 100%;
   background-image: linear-gradient(
     274.03deg,
     #06b6d4 0%,
@@ -469,11 +470,12 @@ a {
 
 /* Footer */
 .footer-perent {
-  max-width: 1440px;
+  max-width: 100%;
   background: rgba(244, 244, 245, 1);
 }
 .footer {
   max-width: 1440px;
+  margin: 0 auto;
   width: 100%;
   margin-top: 152px;
   padding-top: 81px;
@@ -523,6 +525,9 @@ a {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 12px;
+}
+.Links-div1,.Links-div2{
+  padding-right: 60px;
 }
 
 .rights {

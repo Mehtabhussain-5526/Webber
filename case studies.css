@@ -6,7 +6,6 @@
 
 body {
   margin: 0 auto;
-  max-width: 1440px;
   width: 100%;
   background-image: linear-gradient(
     180deg,
@@ -15,7 +14,6 @@ body {
   );
 }
 .hero {
-  max-width: 1440px;
   padding-top: 30.02px;
 }
 .header {
@@ -88,16 +86,16 @@ a {
 }
 /* content-area */
 .content-main-div {
-  max-width: 1440px;
   width: 100%;
   padding-bottom: 100px;
 }
 
 .content-area {
   max-width: 1092px;
+  margin: 0 auto;
   width: 100%;
-  margin-left: 174px;
-  margin-right: 174px;
+  /* margin-left: 174px;
+  margin-right: 174px; */
   display: flex;
 }
 .content-div-1 {

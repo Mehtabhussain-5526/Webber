@@ -6,11 +6,9 @@
 
 body {
   margin: 0 auto;
-  max-width: 1440px;
   width: 100%;
 }
 .hero {
-  max-width: 1440px;
   background-image: linear-gradient(
     180deg,
     rgba(165, 243, 252, 0.1) 23.31%,
@@ -64,6 +62,7 @@ a {
 /* welcome msg simple pricing */
 .simple-pricing {
   max-width: 1440px;
+  margin: 0 auto;
   width: 100%;
   margin-top: 91px;
 }
@@ -198,7 +197,7 @@ a {
 }
 .pro-title {
   background: -webkit-linear-gradient(274.03deg, #06b6d4 0%, #0284c7 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Nunito Sans;
   font-size: 28px;
@@ -231,6 +230,8 @@ a {
   height: 45px;
   width: 167px;
   border-style: none;
+  border-radius: 2px;
+  color:rgba(14, 116, 144, 1);
 }
 .choose-plan-btn-2 {
   margin-top: 50.34px;
@@ -282,13 +283,14 @@ a {
   letter-spacing: -1px;
 }
 .answer-of-question {
+  color: rgba(82, 82, 91, 1);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 /* free trial */
 .free-trial-perent {
-  max-width: 1440px;
+  width: 100%;
   background: linear-gradient(
     274.03deg,
     #06b6d4 0%,
@@ -338,12 +340,13 @@ a {
 }
 /* Footer */
 .footer-perent {
-  max-width: 1440px;
+  max-width: 100%;
   background: rgba(244, 244, 245, 1);
 }
 .footer {
   background: rgba(244, 244, 245, 1);
   max-width: 1440px;
+  margin: 0 auto;
   width: 100%;
   padding-top: 81px;
   padding-bottom: 60px;
@@ -387,6 +390,9 @@ a {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 12px;
+}
+.Links-div1,.Links-div2{
+  padding-right: 60px;
 }
 .rights {
   margin-top: 32.02px;

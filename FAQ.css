@@ -5,8 +5,6 @@
 }
 
 body {
-  margin: 0 auto;
-  max-width: 1440px;
   width: 100%;
   background-image: linear-gradient(
     180deg,
@@ -15,7 +13,6 @@ body {
   );
 }
 .hero {
-  max-width: 1440px;
   padding-top: 30.02px;
 }
 .header {
@@ -63,11 +60,10 @@ a {
 
 .main-div {
   max-width: 1280px;
+  margin: 0 auto;
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  margin-right: 80px;
-  margin-left: 80px;
 }
 .sub-div-1 {
   margin-top: 102px;
@@ -232,15 +228,18 @@ a {
 }
 /* More Case studies */
 .more-case-std-perent {
-  max-width: 1440px;
+  margin-top: 60px;
   border-width: 0px, 0px, 0px, 0px;
   border-style: solid;
   border-color: rgba(228, 228, 231, 1);
+  border-left: none;
+  border-right: none;
   box-shadow: none;
   background: rgba(244, 244, 245, 1);
 }
 .more-case-std {
   max-width: 1274px;
+  margin: 0 auto;
   width: 100%;
   padding: 60px 80px;
 }
@@ -307,12 +306,12 @@ a {
 
 /* Footer */
 .footer-perent {
-  max-width: 1440px;
   background: rgba(244, 244, 245, 1);
 }
 .footer {
   background: rgba(244, 244, 245, 1);
   max-width: 1440px;
+  margin: 0 auto;
   width: 100%;
   padding-top: 81px;
   padding-bottom: 60px;
@@ -356,6 +355,9 @@ a {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 12px;
+}
+.Links-div1,.Links-div2{
+  padding-right: 60px;
 }
 .rights {
   margin-top: 32.02px;
